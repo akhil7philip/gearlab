@@ -59,7 +59,11 @@ export function getAllPosts(): Post[] {
         ogDescription: data.ogDescription || data.excerpt || '',
         lastModified: data.lastModified || data.date,
         articleSchema: data.articleSchema !== false,
-        keywords: data.keywords || [],
+        keywords: Array.isArray(data.keywords)
+          ? data.keywords
+          : data.keywords
+            ? String(data.keywords).split(',').map((k) => k.trim())
+            : [],
         noindex: data.noindex || false,
         category: data.category || '',
       }
