@@ -20,7 +20,7 @@ const path = require('path')
 const readline = require('readline')
 const os = require('os')
 
-const TEMPLATE_REPO = 'https://github.com/akhil7philip/agent-content-site.git'
+const TEMPLATE_REPO = 'https://github.com/akhil7philip/agent-site-template.git'
 const GITHUB_API = 'https://api.github.com'
 const VERCEL_API = 'https://api.vercel.com'
 const CLOUDFLARE_API = 'https://api.cloudflare.com/client/v4'
@@ -437,16 +437,24 @@ async function main() {
   console.log('\n─── Phase 2: GitHub Repo ───\n')
 
   console.log(`Creating GitHub repo: ${repoSlug}`)
-  await githubApi(githubToken, '/user/repos', {
-    method: 'POST',
-    body: { name: repoName, private: false, description: `${brand} — ${niche} buying guides & reviews` },
-  })
+  try {
+    await githubApi(githubToken, '/user/repos', {
+      method: 'POST',
+      body: { name: repoName, private: false, description: `${brand} — ${niche} buying guides & reviews` },
+    })
+  } catch (e) {
+    if (e.message.includes('422') || e.message.includes('already exists')) {
+      console.log('Repo already exists. Will force-push fresh scaffold.')
+    } else {
+      throw e
+    }
+  }
 
   console.log('Pushing code...')
   const remote = `https://${githubToken}@github.com/${repoSlug}.git`
   sh(`git -C "${tmpDir}" remote add origin ${remote}`, { silent: true })
   sh(`git -C "${tmpDir}" branch -M main`, { silent: true })
-  sh(`git -C "${tmpDir}" push -u origin main`, { silent: true })
+  sh(`git -C "${tmpDir}" push -uf origin main`, { silent: true })
 
   /* 4. Phase 2 — Vercel */
   console.log('\n─── Phase 2: Vercel ───\n')
@@ -458,7 +466,6 @@ async function main() {
       name: vercelProjectName,
       framework: 'nextjs',
       gitRepository: { type: 'github', repo: repoSlug },
-      buildSettings: { buildCommand: 'next build', outputDirectory: 'dist' },
     },
   })
 
