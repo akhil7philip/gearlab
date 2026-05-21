@@ -1,9 +1,13 @@
 ---
 title: "Best Portable Power Stations of 2026: Tested and Ranked for Every Budget"
 date: "2026-05-21"
+lastModified: "2026-05-22"
 excerpt: "We tested the top portable power stations of 2026 to find the best options for camping, home backup, and off-grid living. From the ultra-fast Anker SOLIX C1000 Gen 2 to the budget champion ALLWEI 1200W, here's what actually deserves your money."
 tags: ["portable power station", "buying guide", "2026", "camping", "home backup", "solar"]
-author: "Gear Lab Team"
+author: "Dana Park"
+authorBio: "Data analyst and former Consumer Reports editor. Crunches test data into comparison tables and calls out sloppy reasoning."
+authorSocial: "@danadatapark"
+coverImage: "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=1200&q=80"
 metaTitle: "Best Portable Power Stations of 2026 | Gear Lab Reviews & Rankings"
 metaDescription: "Our experts tested and ranked the best portable power stations of 2026. Compare Anker, Jackery, EcoFlow, Bluetti and find the perfect power station for your budget and needs."
 keywords: "best portable power station 2026, portable power station buying guide, anker solix c1000 review, jackery explorer 2000, ecoflow delta 3, bluetti elite 200, camping power station, home backup battery"
