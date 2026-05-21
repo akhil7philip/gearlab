@@ -63,15 +63,15 @@ export default async function BlogPostPage({ params }: Props) {
     dateModified: post.lastModified || post.date,
     publisher: {
       '@type': 'Organization',
-      name: 'Site Title',
+      name: 'Gear Lab',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://your-domain.vercel.app/logo.png',
+        url: 'https://gearlab.space/logo.png',
       },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://your-domain.vercel.app/blog/${slug}/`,
+      '@id': `https://gearlab.space/blog/${slug}/`,
     },
     ...(post.coverImage && {
       image: {
@@ -91,13 +91,13 @@ export default async function BlogPostPage({ params }: Props) {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://your-domain.vercel.app/',
+        item: 'https://gearlab.space/',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: post.title,
-        item: `https://your-domain.vercel.app/blog/${slug}/`,
+        item: `https://gearlab.space/blog/${slug}/`,
       },
     ],
   }

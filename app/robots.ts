@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/', '/_next/'],
     },
-    sitemap: 'https://your-domain.vercel.app/sitemap.xml',
+    sitemap: 'https://gearlab.space/sitemap.xml',
   }
 }

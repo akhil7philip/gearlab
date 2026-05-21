@@ -2,8 +2,8 @@ import { getAllPosts } from '@/lib/posts'
 
 export const dynamic = 'force-static'
 
-const BASE_URL = 'https://your-domain.vercel.app'
-const SITE_NAME = 'Site Title'
+const BASE_URL = 'https://gearlab.space'
+const SITE_NAME = 'Gear Lab'
 const SITE_DESCRIPTION = 'Expert reviews, comparisons, and buying guides.'
 
 export async function GET() {
