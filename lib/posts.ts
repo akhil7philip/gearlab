@@ -2,6 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import { remark } from 'remark'
+import remarkGfm from 'remark-gfm'
 import remarkHtml from 'remark-html'
 
 const postsDirectory = path.join(process.cwd(), 'content/posts')
@@ -89,6 +90,6 @@ export function getPostsByTag(tag: string): Post[] {
 }
 
 export async function markdownToHtml(markdown: string): Promise<string> {
-  const result = await remark().use(remarkHtml).process(markdown)
+  const result = await remark().use(remarkGfm).use(remarkHtml).process(markdown)
   return result.toString()
 }
