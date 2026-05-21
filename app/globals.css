@@ -7,30 +7,79 @@
     scroll-behavior: smooth;
   }
   body {
-    @apply bg-white text-gray-900 antialiased;
+    @apply bg-[#0a0a0a] text-[#f5f5f5] antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-[#f5f5f5];
+  }
+  p {
+    @apply text-[#a3a3a3];
   }
 }
 
 @layer components {
   .prose a {
-    @apply text-primary hover:underline;
+    @apply text-[#ff6b35] hover:underline;
+  }
+  .prose h1, .prose h2, .prose h3, .prose h4 {
+    @apply text-[#f5f5f5];
+  }
+  .prose p, .prose li {
+    @apply text-[#a3a3a3];
+  }
+  .prose strong {
+    @apply text-[#f5f5f5];
   }
   .affiliate-disclosure {
-    @apply text-xs text-gray-500 italic border-l-2 border-primary pl-3 my-6;
+    @apply text-xs text-[#737373] italic border-l-2 border-[#ff6b35] pl-3 my-6 bg-[#141414] py-3 rounded-r;
   }
   .prose table {
     @apply w-full text-left border-collapse my-6 text-sm;
   }
   .prose thead {
-    @apply border-b-2 border-gray-300;
+    @apply border-b-2 border-[#262626];
   }
   .prose th {
-    @apply py-3 px-4 font-semibold text-gray-900 bg-gray-50;
+    @apply py-3 px-4 font-semibold text-[#f5f5f5] bg-[#1c1c1c];
   }
   .prose td {
-    @apply py-3 px-4 border-b border-gray-200 text-gray-700;
+    @apply py-3 px-4 border-b border-[#262626] text-[#a3a3a3];
   }
   .prose tbody tr:hover {
-    @apply bg-gray-50;
+    @apply bg-[#1c1c1c];
   }
+  .prose blockquote {
+    @apply border-l-4 border-[#ff6b35] pl-4 italic text-[#a3a3a3];
+  }
+  .prose code {
+    @apply bg-[#1c1c1c] text-[#ff8555] px-2 py-1 rounded text-sm;
+  }
+  .newsletter-cta {
+    @apply bg-[#141414] border border-[#262626] rounded-xl p-6 my-8;
+  }
+  .newsletter-cta h3 {
+    @apply text-[#f5f5f5] font-bold text-lg mb-2;
+  }
+  .newsletter-cta p {
+    @apply text-[#737373] text-sm mb-4;
+  }
+  .newsletter-cta input {
+    @apply bg-[#0a0a0a] border border-[#262626] rounded-lg px-4 py-2 text-[#f5f5f5] placeholder-[#737373] flex-1;
+  }
+  .newsletter-cta button {
+    @apply bg-[#ff6b35] text-[#0a0a0a] font-semibold px-6 py-2 rounded-lg hover:bg-[#ff8555] transition-colors;
+  }
+  .author-bio {
+    @apply bg-[#141414] border border-[#262626] rounded-xl p-6 mt-8 flex gap-4 items-start;
+  }
+  .author-bio .avatar {
+    @apply w-12 h-12 rounded-full bg-[#ff6b35] flex items-center justify-center text-[#0a0a0a] font-bold text-lg shrink-0;
+  }
+}
+
+@layer utilities {
+  .text-primary { color: #ff6b35; }
+  .bg-primary { background-color: #ff6b35; }
+  .border-primary { border-color: #ff6b35; }
 }
