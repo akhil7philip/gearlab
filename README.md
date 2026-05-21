@@ -187,7 +187,7 @@ If the article appears at `https://your-domain.vercel.app/blog/test-article/`, y
 ## Project Structure
 
 ```
-agent-content-site/
+gearlab/
 ├── app/                          # Next.js App Router
 │   ├── blog/[slug]/page.tsx      # Article page with full SEO + schema
 │   ├── layout.tsx                # Root layout with meta tags

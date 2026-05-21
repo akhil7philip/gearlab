@@ -19,7 +19,7 @@
 // ============================================
 const CONFIG = {
   owner: process.env.GITHUB_OWNER || 'akhil7philip',
-  repo: process.env.GITHUB_REPO || 'agent-content-site',
+  repo: process.env.GITHUB_REPO || 'gearlab',
   branch: process.env.GITHUB_BRANCH || 'main',
   postsPath: 'content/posts',
 };
