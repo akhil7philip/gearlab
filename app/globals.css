@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white text-gray-900 antialiased;
+  }
+}
+
+@layer components {
+  .prose a {
+    @apply text-primary hover:underline;
+  }
+  .affiliate-disclosure {
+    @apply text-xs text-gray-500 italic border-l-2 border-primary pl-3 my-6;
+  }
+}
