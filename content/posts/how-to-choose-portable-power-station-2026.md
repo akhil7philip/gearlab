@@ -1,9 +1,13 @@
 ---
 title: "How to Choose a Portable Power Station in 2026: Complete Buying Guide"
 date: "2026-05-21"
+lastModified: "2026-05-22"
 excerpt: "Don't buy a portable power station until you understand these 7 critical factors. From battery chemistry and capacity calculations to solar compatibility and UPS features, here's everything you need to make the right choice."
 tags: ["portable power station", "buying guide", "how to choose", "battery capacity", "solar charging", "2026"]
-author: "Gear Lab Team"
+author: "Jesse Okonkwo"
+authorBio: "Field tester and off-grid camper. Spends 100+ nights a year in a converted van testing gear where it matters."
+authorSocial: "@jessevanlife"
+coverImage: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80"
 metaTitle: "How to Choose a Portable Power Station in 2026 | Gear Lab"
 metaDescription: "Learn how to choose the right portable power station for camping, home backup, or off-grid living. We break down capacity, output, charging speed, and battery chemistry in plain English."
 keywords: "how to choose portable power station, portable power station buying guide, what size power station do i need, watt hours vs wattage, lifepo4 vs lithium ion, solar power station setup"
