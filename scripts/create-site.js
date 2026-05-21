@@ -480,6 +480,46 @@ async function main() {
     console.warn(`⚠️  Could not add domain automatically: ${err.message}`)
   }
 
+  /* 4b. Clone locally */
+  console.log('\n─── Local Clone ───\n')
+  const homeDir = os.homedir()
+  const defaultCloneDir = path.join(homeDir, 'Sites', repoName)
+  const cloneDir = (await ask(`Local clone directory [${defaultCloneDir}]: `)) || defaultCloneDir
+
+  // Ensure parent dir exists
+  fs.mkdirSync(path.dirname(cloneDir), { recursive: true })
+
+  // Clone via SSH using github.com-home host
+  const sshRemote = `git@github.com-home:${repoSlug}.git`
+  console.log(`Cloning to ${cloneDir}...`)
+  try {
+    sh(`git clone ${sshRemote} "${cloneDir}"`, { silent: true })
+    console.log('✅  Cloned locally.')
+
+    // Copy .env if it exists in current (template) repo
+    const templateEnv = path.join(process.cwd(), '.env')
+    const targetEnv = path.join(cloneDir, '.env')
+    if (fs.existsSync(templateEnv) && !fs.existsSync(targetEnv)) {
+      fs.copyFileSync(templateEnv, targetEnv)
+      // Update GITHUB_REPO in the copied .env
+      let envContent = fs.readFileSync(targetEnv, 'utf8')
+      envContent = envContent.replace(/^GITHUB_REPO=.*$/m, `GITHUB_REPO=${repoName}`)
+      envContent = envContent.replace(/^NEXT_PUBLIC_SITE_URL=.*$/m, `NEXT_PUBLIC_SITE_URL=${siteUrl}`)
+      envContent = envContent.replace(/^NEXT_PUBLIC_SITE_NAME=.*$/m, `NEXT_PUBLIC_SITE_NAME=${brand}`)
+      fs.writeFileSync(targetEnv, envContent)
+      console.log('✅  Copied .env with updated values.')
+    }
+
+    // npm install
+    console.log('Running npm install...')
+    sh(`npm install`, { cwd: cloneDir, silent: true })
+    console.log('✅  Dependencies installed.')
+  } catch (e) {
+    console.warn(`⚠️  Local clone failed: ${e.message}`)
+    console.warn('   You can clone manually:')
+    console.warn(`   git clone ${sshRemote} "${cloneDir}"`)
+  }
+
   /* 5. Phase 3 — Integrations */
   const cfToken = process.env.CLOUDFLARE_API_TOKEN
   const googleClientId = process.env.GOOGLE_CLIENT_ID
@@ -552,6 +592,11 @@ async function main() {
   console.log(`  4. Set GITHUB_TOKEN in .env for the Kimi Claw publishing pipeline`)
 
   fs.rmSync(tmpDir, { recursive: true, force: true })
+
+  // Print local path at the very end
+  if (typeof cloneDir !== 'undefined') {
+    console.log(`\n📁  Local repo: ${cloneDir}`)
+  }
 }
 
 main().catch((err) => {
