@@ -482,7 +482,7 @@ async function main() {
 
   /* 4b. Clone locally */
   console.log('\n─── Local Clone ───\n')
-  const defaultCloneDir = path.join('/Users/akhilphilip/learn', 'Sites', repoName)
+  const defaultCloneDir = path.join(os.homedir(), 'learn', 'Sites', repoName)
   const cloneDir = (await ask(`Local clone directory [${defaultCloneDir}]: `)) || defaultCloneDir
 
   // Ensure parent dir exists
