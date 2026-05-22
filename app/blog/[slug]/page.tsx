@@ -119,9 +119,9 @@ export default async function BlogPostPage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
-      <article className="max-w-3xl mx-auto px-4 py-12">
+      <article className="max-w-3xl mx-auto px-4 py-16">
         {/* Breadcrumbs - uses CSS variables */}
-        <nav className="text-sm text-text-muted mb-6" aria-label="Breadcrumb">
+        <nav className="text-sm text-text-muted mb-8" aria-label="Breadcrumb">
           <ol className="flex items-center gap-2">
             <li><a href="/" className="hover:text-accent transition-colors">Home</a></li>
             <li className="text-text-muted">/</li>
@@ -133,18 +133,18 @@ export default async function BlogPostPage({ params }: Props) {
 
         {/* Cover Image */}
         {post.coverImage && (
-          <div className="mb-8 rounded-xl overflow-hidden shadow-card">
+          <div className="mb-10 rounded-2xl overflow-hidden shadow-card">
             <img
               src={post.coverImage}
               alt={post.title}
-              className="w-full h-64 object-cover"
+              className="w-full h-72 object-cover"
             />
           </div>
         )}
 
         {/* Header */}
-        <header className="mb-8">
-          <h1 className="text-3xl md:text-4xl font-extrabold text-text-primary tracking-tight mb-4">
+        <header className="mb-10">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-text-primary tracking-tight mb-5">
             {post.title}
           </h1>
           <div className="flex flex-wrap items-center gap-3 text-sm text-text-muted">
@@ -173,7 +173,7 @@ export default async function BlogPostPage({ params }: Props) {
             )}
           </div>
           {post.tags.length > 0 && (
-            <div className="flex flex-wrap gap-2 mt-4">
+            <div className="flex flex-wrap gap-2 mt-5">
               {post.tags.map((tag) => (
                 <span key={tag} className="tag">
                   {tag}
@@ -213,7 +213,9 @@ export default async function BlogPostPage({ params }: Props) {
         )}
 
         {/* Newsletter CTA */}
-        <NewsletterForm />
+        <div className="mt-12">
+          <NewsletterForm />
+        </div>
       </article>
     </>
   )

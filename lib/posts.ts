@@ -94,6 +94,8 @@ export function getPostsByTag(tag: string): Post[] {
 }
 
 export async function markdownToHtml(markdown: string): Promise<string> {
-  const result = await remark().use(remarkGfm).use(remarkHtml).process(markdown)
+  // Strip the first H1 heading to avoid duplication with the template-rendered title
+  const cleaned = markdown.replace(/^#\s+.+\n?/m, '')
+  const result = await remark().use(remarkGfm).use(remarkHtml).process(cleaned)
   return result.toString()
 }

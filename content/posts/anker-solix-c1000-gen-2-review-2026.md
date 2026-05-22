@@ -6,7 +6,7 @@ tags: ["anker", "solix c1000 gen 2", "review", "portable power station", "2026"]
 author: "Marcus Chen"
 authorBio: "Lead tester and former solar installer. Handles bench testing and spec verification. Has a concerning collection of burned-out inverters."
 authorSocial: "@marcusgearlab"
-coverImage: "https://images.unsplash.com/photo-1581094794329-cdab2d3e7b33?auto=format&fit=crop&w=1200&q=80"
+coverImage: "https://images.unsplash.com/photo-1516939884455-1445c8652f83?auto=format&fit=crop&w=1200&q=80"
 metaTitle: "Anker SOLIX C1000 Gen 2 Review 2026 | Gear Lab Deep Dive Testing"
 metaDescription: "We tested the Anker SOLIX C1000 Gen 2 through 47 charge cycles. Real data on charging speed, output power, efficiency, and whether it lives up to the 49-minute claim."
 keywords: "anker solix c1000 gen 2 review, anker c1000 gen 2 test, anker power station 2026, c1000 gen 2 vs gen 1, anker solix charging speed, portable power station review"
