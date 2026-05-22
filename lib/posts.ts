@@ -16,6 +16,8 @@ export interface Post {
   coverImage?: string
   tags: string[]
   author: string
+  authorBio?: string
+  authorSocial?: string
   metaTitle?: string
   metaDescription?: string
   canonicalUrl?: string
@@ -51,6 +53,8 @@ export function getAllPosts(): Post[] {
         coverImage: data.coverImage || '',
         tags: data.tags || [],
         author: data.author || 'Editorial Team',
+        authorBio: data.authorBio || '',
+        authorSocial: data.authorSocial || '',
         metaTitle: data.metaTitle || data.title || '',
         metaDescription: data.metaDescription || data.excerpt || '',
         canonicalUrl: data.canonicalUrl || '',
