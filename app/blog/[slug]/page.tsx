@@ -119,20 +119,20 @@ export default async function BlogPostPage({ params }: Props) {
       />
 
       <article className="max-w-3xl mx-auto px-4 py-12">
-        {/* Breadcrumbs */}
-        <nav className="text-sm text-[#737373] mb-6" aria-label="Breadcrumb">
+        {/* Breadcrumbs - uses CSS variables */}
+        <nav className="text-sm text-text-muted mb-6" aria-label="Breadcrumb">
           <ol className="flex items-center gap-2">
-            <li><a href="/" className="hover:text-[#ff6b35]">Home</a></li>
-            <li>/</li>
-            <li><a href="/blog/" className="hover:text-[#ff6b35]">Guides</a></li>
-            <li>/</li>
-            <li className="text-[#a3a3a3] font-medium">{post.title}</li>
+            <li><a href="/" className="hover:text-accent transition-colors">Home</a></li>
+            <li className="text-text-muted">/</li>
+            <li><a href="/blog/" className="hover:text-accent transition-colors">Guides</a></li>
+            <li className="text-text-muted">/</li>
+            <li className="text-text-secondary font-medium">{post.title}</li>
           </ol>
         </nav>
 
         {/* Cover Image */}
         {post.coverImage && (
-          <div className="mb-8 rounded-xl overflow-hidden">
+          <div className="mb-8 rounded-xl overflow-hidden shadow-card">
             <img
               src={post.coverImage}
               alt={post.title}
@@ -143,10 +143,10 @@ export default async function BlogPostPage({ params }: Props) {
 
         {/* Header */}
         <header className="mb-8">
-          <h1 className="text-3xl md:text-4xl font-extrabold text-[#f5f5f5] tracking-tight mb-4">
+          <h1 className="text-3xl md:text-4xl font-extrabold text-text-primary tracking-tight mb-4">
             {post.title}
           </h1>
-          <div className="flex flex-wrap items-center gap-3 text-sm text-[#737373]">
+          <div className="flex flex-wrap items-center gap-3 text-sm text-text-muted">
             <time dateTime={post.date}>
               {new Date(post.date).toLocaleDateString('en-US', {
                 year: 'numeric',
@@ -156,25 +156,25 @@ export default async function BlogPostPage({ params }: Props) {
             </time>
             {post.lastModified && post.lastModified !== post.date && (
               <>
-                <span>&middot;</span>
-                <span className="text-[#f59e0b]">Updated {new Date(post.lastModified).toLocaleDateString('en-US', {
+                <span className="text-text-muted">·</span>
+                <span className="text-warning">Updated {new Date(post.lastModified).toLocaleDateString('en-US', {
                   year: 'numeric', month: 'short', day: 'numeric'
                 })}</span>
               </>
             )}
-            <span>&middot;</span>
-            <span className="text-[#ff6b35] font-medium">{post.author}</span>
+            <span className="text-text-muted">·</span>
+            <span className="text-accent font-medium">{post.author}</span>
             {post.category && (
               <>
-                <span>&middot;</span>
-                <span className="text-[#ff6b35] font-medium">{post.category}</span>
+                <span className="text-text-muted">·</span>
+                <span className="text-accent font-medium">{post.category}</span>
               </>
             )}
           </div>
           {post.tags.length > 0 && (
             <div className="flex flex-wrap gap-2 mt-4">
               {post.tags.map((tag) => (
-                <span key={tag} className="text-xs px-3 py-1 bg-[#141414] text-[#737373] rounded-lg border border-[#262626]">
+                <span key={tag} className="tag">
                   {tag}
                 </span>
               ))}
@@ -182,15 +182,15 @@ export default async function BlogPostPage({ params }: Props) {
           )}
         </header>
 
-        {/* Content */}
+        {/* Content - uses .prose styles from globals.css */}
         <div
           className="prose prose-lg max-w-none"
           dangerouslySetInnerHTML={{ __html: contentHtml }}
         />
 
         {/* Affiliate Disclosure */}
-        <div className="affiliate-disclosure mt-10">
-          <strong className="text-[#f5f5f5]">Affiliate Disclosure:</strong> Gear Lab is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. We independently research and test products. Our opinions are our own.
+        <div className="affiliate-disclosure">
+          <strong className="text-text-primary">Affiliate Disclosure:</strong> Gear Lab is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. We independently research and test products. Our opinions are our own.
         </div>
 
         {/* Author Bio */}
@@ -200,10 +200,10 @@ export default async function BlogPostPage({ params }: Props) {
               {post.author.split(' ').map(n => n[0]).join('')}
             </div>
             <div>
-              <p className="text-[#f5f5f5] font-semibold">{post.author}</p>
-              <p className="text-[#737373] text-sm mt-1">{post.authorBio}</p>
+              <p className="text-text-primary font-semibold">{post.author}</p>
+              <p className="text-text-secondary text-sm mt-1">{post.authorBio}</p>
               {post.authorSocial && (
-                <a href={`https://twitter.com/${post.authorSocial.replace('@', '')}`} className="text-[#ff6b35] text-sm hover:underline mt-2 inline-block">
+                <a href={`https://twitter.com/${post.authorSocial.replace('@', '')}`} className="text-accent text-sm hover:underline mt-2 inline-block">
                   {post.authorSocial}
                 </a>
               )}
@@ -219,7 +219,7 @@ export default async function BlogPostPage({ params }: Props) {
             <input type="email" placeholder="your@email.com" required />
             <button type="submit">Subscribe</button>
           </form>
-          <p className="text-xs mt-3">No spam. Unsubscribe anytime.</p>
+          <p className="text-xs mt-3 text-text-muted">No spam. Unsubscribe anytime.</p>
         </div>
       </article>
     </>
