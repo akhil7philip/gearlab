@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { getAllPosts, getPostBySlug, markdownToHtml } from '@/lib/posts'
+import NewsletterForm from '@/components/NewsletterForm'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -212,15 +213,7 @@ export default async function BlogPostPage({ params }: Props) {
         )}
 
         {/* Newsletter CTA */}
-        <div className="newsletter-cta">
-          <h3>⚡ Get power station deals before they sell out</h3>
-          <p>We track prices daily. When the Anker C1000 drops to $470, you'll be the first to know.</p>
-          <form className="flex gap-3" onSubmit={(e) => { e.preventDefault(); alert('Newsletter signup coming soon!'); }}>
-            <input type="email" placeholder="your@email.com" required />
-            <button type="submit">Subscribe</button>
-          </form>
-          <p className="text-xs mt-3 text-text-muted">No spam. Unsubscribe anytime.</p>
-        </div>
+        <NewsletterForm />
       </article>
     </>
   )
