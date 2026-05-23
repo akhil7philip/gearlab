@@ -29,7 +29,6 @@ export default function NewsletterForm({
       setMessage("Please enter a valid email address.");
       return;
     }
-
     if (!formEndpoint) {
       setStatus("error");
       setMessage("Newsletter signup is temporarily unavailable. Please try again later.");
@@ -46,7 +45,7 @@ export default function NewsletterForm({
 
       if (response.ok) {
         setStatus("success");
-        setMessage("✅ Subscribed! Check your inbox for confirmation.");
+        setMessage("subscribed — check your inbox for confirmation.");
         setEmail("");
       } else {
         const data = await response.json().catch(() => ({}));
@@ -61,18 +60,18 @@ export default function NewsletterForm({
 
   return (
     <div className="newsletter-cta">
-      <h3>{headline || "Get the latest reviews in your inbox"}</h3>
+      <h3>{headline || "the briefing"}</h3>
       <p>
         {subtext ||
-          "No spam. Unsubscribe anytime. We test stuff so you don't have to."}
+          "occasional notes on what we tested, what's worth buying, and what to skip. unsubscribe anytime."}
       </p>
 
       {status === "success" ? (
-        <p className="text-sm font-medium" style={{ color: "var(--color-accent)" }}>
+        <p className="text-sm font-mono" style={{ color: "var(--color-accent)" }}>
           {message}
         </p>
       ) : (
-        <form className="flex gap-3" onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit}>
           <input
             type="email"
             placeholder="your@email.com"
@@ -82,19 +81,19 @@ export default function NewsletterForm({
             disabled={status === "submitting"}
           />
           <button type="submit" disabled={status === "submitting"}>
-            {status === "submitting" ? "..." : cta || "Subscribe"}
+            {status === "submitting" ? "…" : (cta || "subscribe")}
           </button>
         </form>
       )}
 
       {status === "error" && (
-        <p className="text-xs mt-3" style={{ color: "#dc2626" }}>
+        <p className="text-xs mt-3 font-mono" style={{ color: "#dc2626" }}>
           {message}
         </p>
       )}
 
-      <p className="text-xs mt-3" style={{ color: "var(--color-text-muted)" }}>
-        We use your email only for newsletter delivery.
+      <p className="text-xs mt-3 font-mono" style={{ color: "var(--color-text-muted)" }}>
+        we use your email only for newsletter delivery.
       </p>
     </div>
   );

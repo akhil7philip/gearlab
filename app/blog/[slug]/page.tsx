@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) return {}
 
   return {
-    title: post.metaTitle || post.title,
+    title: { absolute: post.metaTitle || post.title },
     description: post.metaDescription || post.excerpt,
     robots: post.noindex ? 'noindex, nofollow' : post.robots,
     alternates: {
@@ -65,20 +65,14 @@ export default async function BlogPostPage({ params }: Props) {
     publisher: {
       '@type': 'Organization',
       name: 'Gear Lab',
-      logo: {
-        '@type': 'ImageObject',
-        url: 'https://gearlab.space/favicon.svg',
-      },
+      logo: { '@type': 'ImageObject', url: 'https://gearlab.space/favicon.svg' },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': `https://gearlab.space/blog/${slug}/`,
     },
     ...(post.coverImage && {
-      image: {
-        '@type': 'ImageObject',
-        url: post.coverImage,
-      },
+      image: { '@type': 'ImageObject', url: post.coverImage },
     }),
     keywords: post.keywords?.join(', ') || post.tags.join(', '),
   }
@@ -87,24 +81,9 @@ export default async function BlogPostPage({ params }: Props) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      {
-        '@type': 'ListItem',
-        position: 1,
-        name: 'Home',
-        item: 'https://gearlab.space/',
-      },
-      {
-        '@type': 'ListItem',
-        position: 2,
-        name: 'Guides',
-        item: 'https://gearlab.space/blog/',
-      },
-      {
-        '@type': 'ListItem',
-        position: 3,
-        name: post.title,
-        item: `https://gearlab.space/blog/${slug}/`,
-      },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://gearlab.space/' },
+      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://gearlab.space/blog/' },
+      { '@type': 'ListItem', position: 3, name: post.title, item: `https://gearlab.space/blog/${slug}/` },
     ],
   }
 
@@ -119,71 +98,61 @@ export default async function BlogPostPage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
-      <article className="max-w-3xl mx-auto px-4 py-16">
-        {/* Breadcrumbs - uses CSS variables */}
-        <nav className="text-sm text-text-muted mb-8" aria-label="Breadcrumb">
-          <ol className="flex items-center gap-2">
-            <li><a href="/" className="hover:text-accent transition-colors">Home</a></li>
-            <li className="text-text-muted">/</li>
-            <li><a href="/blog/" className="hover:text-accent transition-colors">Guides</a></li>
-            <li className="text-text-muted">/</li>
-            <li className="text-text-secondary font-medium">{post.title}</li>
+      <article className="max-w-2xl mx-auto px-6 py-16">
+        {/* Back link — minimal breadcrumb */}
+        <nav className="mb-10" aria-label="Breadcrumb">
+          <ol className="flex items-center gap-2 font-mono text-xs text-text-muted">
+            <li><a href="/" className="hover:text-accent transition-colors">home</a></li>
+            <li>/</li>
+            <li><a href="/blog/" className="hover:text-accent transition-colors">guides</a></li>
           </ol>
         </nav>
 
         {/* Cover Image */}
         {post.coverImage && (
-          <div className="mb-10 rounded-2xl overflow-hidden shadow-card">
+          <div className="mb-10 rounded overflow-hidden border border-border">
             <img
               src={post.coverImage}
               alt={post.title}
-              className="w-full h-72 object-cover"
+              className="w-full h-64 md:h-72 object-cover"
             />
           </div>
         )}
 
         {/* Header */}
-        <header className="mb-10">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-text-primary tracking-tight mb-5">
+        <header className="mb-12">
+          <p className="font-mono text-xs uppercase tracking-[0.18em] text-text-muted mb-5">
+            {post.category || 'guide'}
+          </p>
+          <h1 className="font-serif text-4xl md:text-5xl font-semibold text-text-primary tracking-tight mb-6 leading-[1.1]">
             {post.title}
           </h1>
-          <div className="flex flex-wrap items-center gap-3 text-sm text-text-muted">
-            <time dateTime={post.date}>
-              {new Date(post.date).toLocaleDateString('en-US', {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric',
-              })}
+          <div className="font-mono text-xs text-text-muted flex flex-wrap gap-x-4 gap-y-1">
+            <time dateTime={post.date} className="tabular-nums">
+              {new Date(post.date).toISOString().slice(0, 10)}
             </time>
             {post.lastModified && post.lastModified !== post.date && (
               <>
-                <span className="text-text-muted">·</span>
-                <span className="text-warning">Updated {new Date(post.lastModified).toLocaleDateString('en-US', {
-                  year: 'numeric', month: 'short', day: 'numeric'
-                })}</span>
+                <span className="text-text-muted/50">·</span>
+                <span className="tabular-nums">updated {new Date(post.lastModified).toISOString().slice(0, 10)}</span>
               </>
             )}
-            <span className="text-text-muted">·</span>
-            <span className="text-accent font-medium">{post.author}</span>
-            {post.category && (
-              <>
-                <span className="text-text-muted">·</span>
-                <span className="text-accent font-medium">{post.category}</span>
-              </>
-            )}
+            <span className="text-text-muted/50">·</span>
+            <span>by {post.author}</span>
           </div>
           {post.tags.length > 0 && (
-            <div className="flex flex-wrap gap-2 mt-5">
-              {post.tags.map((tag) => (
-                <span key={tag} className="tag">
+            <p className="mt-4 font-mono text-[11px] text-text-muted">
+              {post.tags.map((tag, i) => (
+                <span key={tag}>
                   {tag}
+                  {i < post.tags.length - 1 && <span className="text-text-muted/40 mx-1.5">·</span>}
                 </span>
               ))}
-            </div>
+            </p>
           )}
         </header>
 
-        {/* Content - uses .prose styles from globals.css */}
+        {/* Content */}
         <div
           className="prose prose-lg max-w-none"
           dangerouslySetInnerHTML={{ __html: contentHtml }}
@@ -191,7 +160,7 @@ export default async function BlogPostPage({ params }: Props) {
 
         {/* Affiliate Disclosure */}
         <div className="affiliate-disclosure">
-          <strong className="text-text-primary">Affiliate Disclosure:</strong> Gear Lab is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. We independently research and test products. Our opinions are our own.
+          <strong>Affiliate Disclosure:</strong> Gear Lab is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. We independently research and test products. Our opinions are our own.
         </div>
 
         {/* Author Bio */}
@@ -201,10 +170,13 @@ export default async function BlogPostPage({ params }: Props) {
               {post.author.split(' ').map(n => n[0]).join('')}
             </div>
             <div>
-              <p className="text-text-primary font-semibold">{post.author}</p>
-              <p className="text-text-secondary text-sm mt-1">{post.authorBio}</p>
+              <p className="font-serif text-text-primary font-semibold text-base">{post.author}</p>
+              <p className="text-text-secondary text-sm mt-1 leading-relaxed">{post.authorBio}</p>
               {post.authorSocial && (
-                <a href={`https://twitter.com/${post.authorSocial.replace('@', '')}`} className="text-accent text-sm hover:underline mt-2 inline-block">
+                <a
+                  href={`https://twitter.com/${post.authorSocial.replace('@', '')}`}
+                  className="font-mono text-xs text-accent hover:underline mt-2 inline-block"
+                >
                   {post.authorSocial}
                 </a>
               )}

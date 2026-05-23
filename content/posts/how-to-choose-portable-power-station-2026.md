@@ -22,7 +22,7 @@ Portable power stations have evolved from niche gadgets to essential gear for ca
 
 This guide breaks down the 7 most important factors to consider — no engineering degree required. By the end, you'll know exactly what size, features, and brand make sense for your specific needs.
 
-> **Already know what you need?** Jump to our [Best Portable Power Stations of 2026](#) ranked list for our top-tested picks.
+> **Already know what you need?** Jump to our [Best Portable Power Stations of 2026](/blog/best-portable-power-stations-2026/) ranked list for our top-tested picks.
 
 ---
 
@@ -257,7 +257,7 @@ Our team tests power stations year-round. Reach out:
 - 🐦 **Twitter/X:** @GearLabReviews
 - 📱 **Instagram:** @gearlab.power
 
-Or jump straight to our tested rankings: **[Best Portable Power Stations of 2026](#)**
+Or jump straight to our tested rankings: **[Best Portable Power Stations of 2026](/blog/best-portable-power-stations-2026/)**
 
 ---
 
