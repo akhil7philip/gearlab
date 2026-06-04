@@ -5,7 +5,7 @@ excerpt: "We took 5 top portable power stations on actual camping trips — meas
 tags: ["camping", "portable power station", "outdoor gear", "solar", "2026", "buying guide"]
 author: "Dana Park"
 authorBio: "Data analyst and former Consumer Reports editor. Crunches test data into comparison tables and calls out sloppy reasoning."
-authorSocial: "@danadatapark"
+authorSocial: ""
 coverImage: "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=1200&q=80"
 metaTitle: "Best Portable Power Stations for Camping 2026 | Gear Lab Field Tested"
 metaDescription: "We tested 5 portable power stations on real camping trips. Noise, weight, solar charging, and runtime measured at the campsite. Find the best camping power station for your next trip."
