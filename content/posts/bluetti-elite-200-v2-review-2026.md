@@ -3,9 +3,7 @@ title: "Bluetti Elite 200 v2 Review: 6,000 Cycles, 2,073Wh, and a 15-Year Lifesp
 date: "2026-05-30"
 excerpt: "The Bluetti Elite 200 v2 claims 6,000+ cycles and a 15-year lifespan at $1,299. We stress-tested the battery, measured charge efficiency, and ran a full-home backup simulation to find out if the premium price buys real longevity."
 tags: ["bluetti", "elite 200 v2", "review", "portable power station", "2026", "premium", "lifepo4", "home backup"]
-author: "Dana Park"
-authorBio: "Data analyst and former Consumer Reports editor. Crunches test data into comparison tables and calls out sloppy reasoning."
-authorSocial: "@danadatapark"
+author: "Gear Lab Team"
 coverImage: "https://images.unsplash.com/photo-1532601224476-15c79f874f3c?auto=format&fit=crop&w=1200&q=80"
 metaTitle: "Bluetti Elite 200 v2 Review 2026 | 6,000-Cycle Lifespan Tested"
 metaDescription: "Is the Bluetti Elite 200 v2 worth $1,299? We tested charge efficiency, cycle life claims, and full-home backup performance. Real data inside."
