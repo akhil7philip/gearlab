@@ -42,17 +42,6 @@ We're a small team of engineers, campers, and chronic over-preparers who got tir
 - **Update or kill.** If a product we recommended goes downhill (new revision, price hike, quality drop), we update the review or remove the recommendation. Our "Best of 2026" guides are living documents, not set-it-and-forget-it lists.
 - **Reader corrections welcome.** If we got a spec wrong, tell us. We fix it within 48 hours.
 
-## The Team
-
-**Marcus Chen** — Lead Tester & Electrical Engineer  
-Former solar installer who got obsessed with battery chemistry. Runs most of the bench testing and has a concerning collection of burned-out inverters.
-
-**Jesse Okonkwo** — Field Tester & Off-Grid Camper  
-Spends 100+ nights a year in a converted van. Tests power stations where they actually matter: at 11,000 feet in the Sierras, during Midwest thunderstorms, and on fishing boats where "waterproof" either holds up or doesn't.
-
-**Dana Park** — Data Analyst & Former Consumer Reports Editor  
-Crunches our test data into the comparison tables you see in every article. Also the person who yells at us when we use "arguably" in a review without data to back it up.
-
 ## Affiliate Disclosure
 
 Gear Lab is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. This doesn't influence what we recommend — our top picks are based on test results, not commission rates. We disclose affiliate relationships transparently in every article.
@@ -60,7 +49,6 @@ Gear Lab is reader-supported. When you buy through links on our site, we may ear
 ## Contact Us
 
 - **Email:** hello@gearlab.space
-- **Twitter/X:** [@GearLabReviews](https://twitter.com/GearLabReviews)
 - **Correction submissions:** corrections@gearlab.space (we read every one)
 
 ## Want Us to Test Something?

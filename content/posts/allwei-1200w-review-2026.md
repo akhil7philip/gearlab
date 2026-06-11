@@ -3,9 +3,7 @@ title: "ALLWEI 1200W Review: 1,008Wh for $339 — The Best Value-per-Dollar Powe
 date: "2026-05-30"
 excerpt: "The ALLWEI 1200W promises 1,008Wh of LiFePO4 capacity and 1,200W output for under $400 with coupons. We ran it through a 72-hour home backup simulation, load-step testing, and a full teardown to see if the budget price hides budget performance."
 tags: ["allwei", "1200w", "review", "portable power station", "2026", "budget", "lifepo4", "value"]
-author: "Dana Park"
-authorBio: "Data analyst and former Consumer Reports editor. Crunches test data into comparison tables and calls out sloppy reasoning."
-authorSocial: "@danadatapark"
+author: "Gear Lab Team"
 coverImage: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80"
 metaTitle: "ALLWEI 1200W Review 2026 | $339 Budget Power Station Tested"
 metaDescription: "Is the ALLWEI 1200W worth $339? We tested 1,008Wh capacity, 1,200W output, charging speed, and real-world backup performance. Full data inside."

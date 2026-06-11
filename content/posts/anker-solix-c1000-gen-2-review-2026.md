@@ -3,9 +3,7 @@ title: "Anker SOLIX C1000 Gen 2 Review: We Ran 47 Charge Cycles and Measured Eve
 date: "2026-05-22"
 excerpt: "The Anker SOLIX C1000 Gen 2 promises 49-minute charging, 2,000W output, and a 10-year lifespan. We bought one, ran it through 47 charge cycles, and measured every spec that matters. Here's what the data actually says."
 tags: ["anker", "solix c1000 gen 2", "review", "portable power station", "2026"]
-author: "Marcus Chen"
-authorBio: "Lead tester and former solar installer. Handles bench testing and spec verification. Has a concerning collection of burned-out inverters."
-authorSocial: "@marcusgearlab"
+author: "Gear Lab Team"
 coverImage: "https://images.unsplash.com/photo-1516939884455-1445c8652f83?auto=format&fit=crop&w=1200&q=80"
 metaTitle: "Anker SOLIX C1000 Gen 2 Review 2026 | Gear Lab Deep Dive Testing"
 metaDescription: "We tested the Anker SOLIX C1000 Gen 2 through 47 charge cycles. Real data on charging speed, output power, efficiency, and whether it lives up to the 49-minute claim."

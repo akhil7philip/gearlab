@@ -3,9 +3,7 @@ title: "Best Portable Power Stations for Camping in 2026: Real-World Load Tests 
 date: "2026-06-02"
 excerpt: "We took 5 top portable power stations on actual camping trips — measured noise at the tent, timed solar charging in partial shade, and tested how long each runs a 12V fridge. Here's what actually works at the campsite."
 tags: ["camping", "portable power station", "outdoor gear", "solar", "2026", "buying guide"]
-author: "Dana Park"
-authorBio: "Data analyst and former Consumer Reports editor. Crunches test data into comparison tables and calls out sloppy reasoning."
-authorSocial: ""
+author: "Gear Lab Team"
 coverImage: "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=1200&q=80"
 metaTitle: "Best Portable Power Stations for Camping 2026 | Gear Lab Field Tested"
 metaDescription: "We tested 5 portable power stations on real camping trips. Noise, weight, solar charging, and runtime measured at the campsite. Find the best camping power station for your next trip."
