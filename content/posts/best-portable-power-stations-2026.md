@@ -211,6 +211,8 @@ If you plan to pair your power station with solar panels, check compatibility an
 | EcoFlow DELTA 3 Plus | 500W | Two 200W + one 100W |
 | Bluetti Elite 200 v2 | 900W | Four 200W + one 100W |
 
+> 📋 **Want a full solar pairing guide?** See our [Solar Generator Buying Guide 2026](/blog/solar-generator-buying-guide-2026/) — we tested 5 panel + battery combinations, measured real-world recharge times in partial shade, and calculated true cost per year for each setup.
+
 ---
 
 ## Frequently Asked Questions

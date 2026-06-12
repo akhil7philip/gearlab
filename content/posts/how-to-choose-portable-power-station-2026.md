@@ -171,6 +171,8 @@ Even if you don't buy solar panels immediately, choosing a station with **high s
 | EcoFlow DELTA 3 Plus | 500W | 2× 200W + 1× 100W |
 | Bluetti Elite 200 v2 | 900W | 4× 200W + 1× 100W |
 
+> 📋 **Want a full solar generator breakdown?** See our [Solar Generator Buying Guide 2026](/blog/solar-generator-buying-guide-2026/) — we tested 5 panel + battery pairings across real weather conditions, measured actual recharge times, and calculated true cost per year.
+
 **Typical solar charging speeds (full sun):**
 - 200W panel setup → 5-8 hours to charge 1000Wh
 - 400W panel setup → 2.5-4 hours to charge 1000Wh
