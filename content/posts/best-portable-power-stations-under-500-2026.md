@@ -82,7 +82,7 @@ Home backup buyers who need to keep essentials running during outages. RV and va
 
 > **⚡ Pro Tip:** Watch for Amazon Lightning deals — this has dropped to $399 several times in 2026. At that price, it's nearly unbeatable.
 
-[Check Current Price on Amazon →](https://www.amazon.com/s?k=ecoflow+delta+3+classic)
+[Check Current Price on Amazon →](https://www.amazon.com/s?k=ecoflow+delta+3+classic&tag=gearlab02-21)
 
 ---
 
@@ -124,7 +124,7 @@ The dual **140W USB-C PD 3.1 ports** are another standout. Most competitors cap 
 ### Who Should Buy It:
 Digital nomads and remote workers who need reliable laptop and device charging. Weekend campers who prioritize portability over raw capacity. Anyone with sensitive electronics or medical devices that need uninterrupted power.
 
-[Check Current Price on Amazon →](https://www.amazon.com/s?k=anker+solix+c300x)
+[Check Current Price on Amazon →](https://www.amazon.com/s?k=anker+solix+c300x&tag=gearlab02-21)
 
 ---
 
@@ -163,7 +163,7 @@ However: if you camp 10-15 times per year, that's 50-75 cycles annually. The bat
 ### Who Should Buy It:
 Casual campers who prioritize proven reliability over cutting-edge specs. Buyers who want maximum capacity (518Wh) at $299 without the complexity of smart features. Preppers building a simple, no-fail backup system.
 
-[Check Current Price on Amazon →](https://www.amazon.com/s?k=jackery+explorer+500)
+[Check Current Price on Amazon →](https://www.amazon.com/s?k=jackery+explorer+500&tag=gearlab02-21)
 
 ---
 
@@ -198,7 +198,7 @@ Most portable power stations lock you into their initial capacity. The RIVER 3 P
 ### Who Should Buy It:
 Buyers who want room to grow without replacing their power station. Campers with variable trip lengths — weekend solo trips vs. weeklong family outings. Budget-conscious buyers who prioritize flexibility over maximum initial capacity.
 
-[Check Current Price on Amazon →](https://www.amazon.com/s?k=ecoflow+river+3+plus)
+[Check Current Price on Amazon →](https://www.amazon.com/s?k=ecoflow+river+3+plus&tag=gearlab02-21)
 
 ---
 
@@ -227,7 +227,7 @@ The Bluetti EB3A is the cheapest way to get legitimate LiFePO4 battery technolog
 ### Who Should Buy It:
 Absolute budget buyers who refuse to compromise on battery chemistry. First-time power station users who want to test the category without major investment. Workshop and garage users who need a reliable backup for tools and lighting.
 
-[Check Current Price on Amazon →](https://www.amazon.com/s?k=bluetti+eb3a)
+[Check Current Price on Amazon →](https://www.amazon.com/s?k=bluetti+eb3a&tag=gearlab02-21)
 
 ---
 
