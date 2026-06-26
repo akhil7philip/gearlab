@@ -23,6 +23,8 @@ The portable power station market in 2026 is the most competitive it's ever been
 Whether you're preparing for hurricane season, planning off-grid camping trips, or just want reliable backup for your home office, this guide will help you find the right power station without overspending.
 
 > **Not sure if a power station or gas generator is right for you?** Read our complete [Power Station vs Generator comparison](/blog/power-station-vs-generator-2026/) for a 10-year cost breakdown and decision framework.
+>
+> **On a budget?** Check our [5 best portable power stations under $500](/blog/best-portable-power-stations-under-500-2026/) — real capacity, proven brands, no junk.
 
 > **Affiliate Disclosure:** Gear Lab is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. We test products independently and our opinions are our own.
 

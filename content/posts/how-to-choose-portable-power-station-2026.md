@@ -23,6 +23,8 @@ Portable power stations have evolved from niche gadgets to essential gear for ca
 This guide breaks down the 7 most important factors to consider — no engineering degree required. By the end, you'll know exactly what size, features, and brand make sense for your specific needs.
 
 > **Already know what you need?** Jump to our [Best Portable Power Stations of 2026](/blog/best-portable-power-stations-2026/) ranked list for our top-tested picks.
+>
+> **Shopping on a budget?** Our [best portable power stations under $500](/blog/best-portable-power-stations-under-500-2026/) guide covers 5 tested options that deliver real value without the premium price tag.
 
 ---
 
