@@ -6,7 +6,7 @@ excerpt: "We tested 6 portable power stations in real RV and vanlife conditions 
 tags: ["portable power station", "RV", "vanlife", "camping", "solar generator", "boondocking", "2026", "buying guide", "LiFePO4"]
 author: "Dana Park"
 authorBio: "Data analyst and former Consumer Reports editor. Spent 3 weeks testing power stations in a converted Sprinter van across the Pacific Coast."
-authorSocial: "@danadatapark"
+authorSocial: ""
 coverImage: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1200&q=80"
 metaTitle: "Best Portable Power Station for RV and Vanlife 2026 | 6 Tested on the Road"
 metaDescription: "Expert-tested: the 6 best portable power stations for RV and vanlife in 2026. Real road testing, solar charging, boondocking runtime, and durability data. Find your perfect travel power station."
