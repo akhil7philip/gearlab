@@ -346,6 +346,8 @@ All units in this guide charge from 12V car outlets — but speeds vary wildly:
 | Full-time off-grid | 1,500Wh | 600W+ | 6× 100W roof + portable |
 | Full-time with AC | 3,000Wh+ | 1,200W+ | Large roof array + ground panels |
 
+> **Need help matching panels to your power station?** See our [Solar Generator Buying Guide](/blog/solar-generator-buying-guide-2026/) for detailed panel recommendations and wiring diagrams.
+
 ### 4. Weight and Space Reality Check
 
 | Unit | Weight | Volume | Best Mounting |
