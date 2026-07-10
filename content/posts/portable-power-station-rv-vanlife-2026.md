@@ -1,7 +1,7 @@
 ---
 title: "Portable Power Station for RV and Vanlife: 6 Tested for Life on the Road (2026)"
 date: "2026-06-30"
-lastModified: "2026-06-30"
+lastModified: "2026-07-10"
 excerpt: "We tested 6 portable power stations in real RV and vanlife conditions — driving vibration, temperature swings, solar charging on the move, and multi-day boondocking. Here's what actually survives life on the road."
 tags: ["portable power station", "RV", "vanlife", "camping", "solar generator", "boondocking", "2026", "buying guide", "LiFePO4"]
 author: "Dana Park"
@@ -24,6 +24,8 @@ We've spent 3 weeks living in a converted Sprinter van with 6 power stations, te
 
 This guide isn't about specs on paper. It's about what survives when your nearest outlet is 50 miles away.
 
+> **Traveling with your power station?** Read our [DJI Power 1000 Mini review](/blog/dji-power-1000-mini-review-2026/) — we tested it through airport security, car camping, and 600 miles of road vibration.
+>
 > **Planning a build?** Read our [How to Choose a Portable Power Station](/blog/how-to-choose-portable-power-station-2026/) guide first for capacity calculations and solar pairing basics.
 >
 > **Affiliate Disclosure:** Gear Lab is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. We test products independently and our opinions are our own.

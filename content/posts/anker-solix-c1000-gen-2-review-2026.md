@@ -215,7 +215,7 @@ It over-delivers on output, nails the charging speed claim (if you enable HyperF
 
 **If you buy one power station in 2026 and your budget is $500, this is it.** No other 1kWh unit gives you this combination of speed, output, and longevity at this price.
 
-[Check Current Price on Amazon →](#)
+[Check Current Price on Amazon →](https://www.amazon.com/s?k=anker+solix+c1000+gen+2&tag=gearlab02-21)
 
 ---
 
