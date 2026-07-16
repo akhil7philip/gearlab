@@ -437,5 +437,3 @@ And for **first-time backup buyers, apartment dwellers, or CPAP users on a budge
 ---
 
 *Tested by the Gear Lab Team | Portland, OR*
-
-*Questions about home backup power? Email us at hello@gearlab.space or reach out on Twitter/X @GearLabReviews.*
