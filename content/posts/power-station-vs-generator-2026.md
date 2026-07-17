@@ -1,7 +1,7 @@
 ---
 title: "Power Station vs Generator: Which Is Better for Home Backup in 2026?"
 date: "2026-06-16"
-lastModified: "2026-06-16"
+lastModified: "2026-07-17"
 excerpt: "Portable power stations and gas generators both promise backup power, but they solve completely different problems. We break down cost, noise, runtime, maintenance, and real-world performance so you can choose the right backup power for your home."
 tags: ["power station vs generator", "home backup power", "portable power station", "gas generator", "backup power comparison", "2026"]
 author: "Gear Lab Team"
@@ -320,6 +320,8 @@ Choose a **generator** only if you:
 **Our recommendation:** Start with a quality power station like the [Anker SOLIX C1000 Gen 2](/blog/anker-solix-c1000-gen-2-review-2026/) or [Jackery Explorer 2000 v2](/blog/jackery-explorer-2000-v2-review-2026/). Add solar panels if you want off-grid capability. Only buy a generator if you discover your power needs genuinely exceed what a battery can deliver.
 
 > **📋 Want help calculating your exact power needs?** Check out our [How to Choose a Portable Power Station](/blog/how-to-choose-portable-power-station-2026/) guide — we break down capacity calculations, appliance wattage tables, and solar pairing recommendations.
+>
+> **🏠 Ready to choose a power station specifically for home backup?** See our tested recommendations in the [Best Power Station for Home Backup 2026](/blog/best-power-station-home-backup-2026/) guide — 48-hour blackout simulation data, refrigerator runtimes, CPAP backup hours, and UPS switchover speeds measured with an oscilloscope.
 
 ---
 

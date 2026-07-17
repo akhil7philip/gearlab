@@ -1,7 +1,7 @@
 ---
 title: "Best Portable Power Stations of 2026: Tested and Ranked for Every Budget"
 date: "2026-05-21"
-lastModified: "2026-07-10"
+lastModified: "2026-07-17"
 excerpt: "We tested the top portable power stations of 2026 to find the best options for camping, home backup, and off-grid living. From the ultra-fast Anker SOLIX C1000 Gen 2 to the budget champion ALLWEI 1200W, here's what actually deserves your money."
 tags: ["portable power station", "buying guide", "2026", "camping", "home backup", "solar"]
 author: "Dana Park"
@@ -27,6 +27,8 @@ Whether you're preparing for hurricane season, planning off-grid camping trips, 
 > **Not sure if a power station or gas generator is right for you?** Read our complete [Power Station vs Generator comparison](/blog/power-station-vs-generator-2026/) for a 10-year cost breakdown and decision framework.
 >
 > **On a budget?** Check our [5 best portable power stations under $500](/blog/best-portable-power-stations-under-500-2026/) — real capacity, proven brands, no junk.
+>
+> **Need home backup power?** Our dedicated [Best Power Station for Home Backup 2026](/blog/best-power-station-home-backup-2026/) guide covers 5 tested models with real blackout data — refrigerator runtimes, CPAP backup, UPS switchover speeds, and well pump compatibility.
 
 > **Affiliate Disclosure:** Gear Lab is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. We test products independently and our opinions are our own.
 
