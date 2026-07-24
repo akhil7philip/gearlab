@@ -21,6 +21,8 @@ The Jackery Explorer 2000 v2 is the most significant product Jackery has release
 We ran it for 72 hours straight through load steps, thermal imaging, solar charging, and a full home-backup simulation. Here is what the data actually says — and whether the $799 price tag is justified.
 
 > **Affiliate Disclosure:** Gear Lab is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. We test products independently and our opinions are our own.
+>
+> **See how Jackery stacks up:** Read our head-to-head [EcoFlow vs Jackery vs Anker comparison](/blog/ecoflow-vs-jackery-vs-anker-2026/) — 200+ hours of testing across all three brands.
 
 ---
 

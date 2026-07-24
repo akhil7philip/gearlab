@@ -21,6 +21,8 @@ When the grid goes down, you have two main options for keeping the lights on: a 
 We've tested both categories extensively. This guide cuts through the debate with direct comparisons on the factors that actually matter: cost over time, noise levels, fuel availability, maintenance burden, and real-world runtime. By the end, you'll know which backup power solution fits your specific situation — no generic advice, no brand bias.
 
 > **Already decided on a power station?** Jump to our [Best Portable Power Stations of 2026](/blog/best-portable-power-stations-2026/) for tested recommendations.
+>
+> **Comparing brands?** See our detailed [EcoFlow vs Jackery vs Anker comparison](/blog/ecoflow-vs-jackery-vs-anker-2026/) to find the right brand for your specific needs.
 
 ---
 

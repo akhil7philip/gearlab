@@ -19,6 +19,8 @@ The spec sheet backs up the claim: **4,096Wh of EV-grade LFP battery**, **4,000W
 Here's the breakdown — what's real, what's marketing, and who should actually buy this thing.
 
 > **Affiliate Disclosure:** Gear Lab is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. We test products independently and our opinions are our own.
+>
+> **See how EcoFlow stacks up:** Read our head-to-head [EcoFlow vs Jackery vs Anker comparison](/blog/ecoflow-vs-jackery-vs-anker-2026/) — 200+ hours of testing across all three brands.
 
 ---
 
