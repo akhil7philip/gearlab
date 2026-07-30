@@ -16,7 +16,7 @@ category: "Buying Guides"
 
 # Best Portable Power Stations of 2026: Tested and Ranked for Every Budget
 
-**Last Updated: May 21, 2026**
+**Last Updated: July 24, 2026**
 
 The portable power station market in 2026 is the most competitive it's ever been. Battery technology has matured, prices have dropped, and features that were premium in 2024 are now standard. But more choice means more confusion—which is exactly why we spent 40+ hours testing the latest models to separate the genuinely improved products from the repackaged leftovers.
 
@@ -29,6 +29,8 @@ Whether you're preparing for hurricane season, planning off-grid camping trips, 
 > **On a budget?** Check our [5 best portable power stations under $500](/blog/best-portable-power-stations-under-500-2026/) — real capacity, proven brands, no junk.
 >
 > **Need home backup power?** Our dedicated [Best Power Station for Home Backup 2026](/blog/best-power-station-home-backup-2026/) guide covers 5 tested models with real blackout data — refrigerator runtimes, CPAP backup, UPS switchover speeds, and well pump compatibility.
+>
+> **Deciding between brands?** See our head-to-head [EcoFlow vs Jackery vs Anker comparison](/blog/ecoflow-vs-jackery-vs-anker-2026/) — 200+ hours of testing across charging speed, noise, output power, and value.
 
 > **Affiliate Disclosure:** Gear Lab is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. We test products independently and our opinions are our own.
 

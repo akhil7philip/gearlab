@@ -24,6 +24,8 @@ We bought one at retail. We ran it through **47 full charge/discharge cycles** o
 Here's the number that actually matters: **this thing over-delivers on almost every claim Anker makes.** But there are two catches — one small, one worth knowing about before you buy.
 
 > **Affiliate Disclosure:** Gear Lab is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. We test products independently and our opinions are our own.
+>
+> **See how Anker stacks up:** Read our head-to-head [EcoFlow vs Jackery vs Anker comparison](/blog/ecoflow-vs-jackery-vs-anker-2026/) — 200+ hours of testing across all three brands.
 
 ---
 
