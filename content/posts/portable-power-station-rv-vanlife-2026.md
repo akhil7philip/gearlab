@@ -39,6 +39,7 @@ This guide isn't about specs on paper. It's about what survives when your neares
 | 🏆 #1 | **EcoFlow DELTA Pro 3** | 4,096Wh | 4,000W | 99 lbs | 2,600W | Whole-RV backup, extended off-grid | **$2,699** |
 | 🥈 #2 | **Jackery Explorer 2000 v2** | 2,042Wh | 2,200W | 40.3 lbs | 600W | Quiet operation, stealth camping | **$1,299** |
 | 🥉 #3 | **Anker SOLIX C1000 Gen 2** | 1,024Wh | 2,000W | 23.9 lbs | 600W | Best overall value, fast charging | **$799** |
+| #3a | **Anker SOLIX C2000 Gen 2** | 2,048Wh | 2,400W | 41.7 lbs | 600W | **Best for RV AC — built-in TT-30 outlet** | **$799** |
 | #4 | **Bluetti Elite 200 v2** | 2,073Wh | 2,600W | 61.5 lbs | 1,200W | Solar expansion, modular builds | **$1,699** |
 | #5 | **EcoFlow DELTA 3 Plus** | 1,024Wh | 2,000W | 29.8 lbs | 500W | Mid-range RV, part-time travel | **$699** |
 | #6 | **ALLWEI 1200W** | 1,008Wh | 1,200W | 28.7 lbs | 200W | Budget van builds, weekend trips | **$399** |

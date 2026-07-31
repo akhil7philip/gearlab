@@ -26,6 +26,8 @@ Whether you need emergency backup for your home office, a camping companion for 
 
 > **Already know you want more capacity?** Read our [Best Portable Power Stations of 2026](/blog/best-portable-power-stations-2026/) guide for 1,000Wh+ options up to 2,000Wh.
 >
+> **Need 2,000+ Wh with RV outlet?** See our [Anker SOLIX C2000 Gen 2 review](/blog/anker-solix-c2000-gen-2-review-2026/) — 2,048Wh, 2,400W output, 58-minute charge, and a built-in TT-30 RV outlet. Only $799.
+>
 > **Affiliate Disclosure:** Gear Lab is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. We test products independently and our opinions are our own.
 
 ---

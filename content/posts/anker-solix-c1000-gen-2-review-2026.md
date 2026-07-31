@@ -26,6 +26,8 @@ Here's the number that actually matters: **this thing over-delivers on almost ev
 > **Affiliate Disclosure:** Gear Lab is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. We test products independently and our opinions are our own.
 >
 > **See how Anker stacks up:** Read our head-to-head [EcoFlow vs Jackery vs Anker comparison](/blog/ecoflow-vs-jackery-vs-anker-2026/) — 200+ hours of testing across all three brands.
+>
+> **Need more capacity?** See our [Anker SOLIX C2000 Gen 2 review](/blog/anker-solix-c2000-gen-2-review-2026/) — 2,048Wh, 2,400W output, 58-minute charge, and a built-in TT-30 RV outlet.
 
 ---
 
