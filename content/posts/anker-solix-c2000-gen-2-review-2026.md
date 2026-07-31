@@ -19,7 +19,7 @@ category: "Product Reviews"
 
 Anker's follow-up to the F2000 is not an incremental update — it's a ground-up rethink. The **SOLIX C2000 Gen 2** launches at **$799.99** with a 2,048Wh LFP battery, 2,400W continuous output, and a headline-grabbing **58-minute full charge**. But the number that caught our attention? **41.7 lbs.** That's 25% lighter than the F2000 it replaces, making this the lightest 2kWh power station from a major brand.
 
-We put one through 35 full charge cycles, load-tested it to thermal limits, ran a 30A RV air conditioner off the TT-30 outlet, and left it powering a fridge for 32 hours straight. We also compared it head-to-head against the [Jackery Explorer 2000 v2](https://gearlab.space/blog/jackery-explorer-2000-v2-review-2026) — its closest competitor at the same price.
+We put one through 35 full charge cycles, load-tested it to thermal limits, ran a 30A RV air conditioner off the TT-30 outlet, and left it powering a fridge for 32 hours straight. We also compared it head-to-head against the [Jackery Explorer 2000 v2](https://gearlab.space/blog/jackery-explorer-2000-v2-review-2026/) — its closest competitor at the same price.
 
 Here's what the data says: the C2000 Gen 2 is the most complete 2kWh power station Anker has ever made. But "most complete" doesn't mean "perfect for everyone." There's one group of buyers who should look elsewhere — and we'll tell you exactly who.
 
@@ -234,7 +234,7 @@ These two are direct competitors at $799. Here's how they stack up:
 
 **The verdict:** The C2000 Gen 2 wins on 9 of 14 categories, ties on 4, and loses on 1 (weight). The Jackery is 2.2 lbs lighter, but the C2000 charges 43% faster, outputs 200W more, and has a built-in RV outlet. Unless you're counting every ounce for backpacking, the C2000 is the better buy.
 
-[Read Our Full Jackery 2000 v2 Review →](https://gearlab.space/blog/jackery-explorer-2000-v2-review-2026)
+[Read Our Full Jackery 2000 v2 Review →](https://gearlab.space/blog/jackery-explorer-2000-v2-review-2026/)
 
 ---
 
