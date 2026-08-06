@@ -328,8 +328,8 @@ For **budget-conscious users** who need a single-night emergency backup, the **[
 
 **Avoid:** Modified sine wave power stations (not in this guide, but common on Amazon for under $200). They can damage CPAP motors over time.
 
-**Still unsure?** Our [Power Station Calculator](#) lets you enter your specific CPAP model, pressure settings, and humidifier use to get personalized runtime estimates. Plug in your gear and see exactly which station matches your needs.
+**Still unsure?** Check our [How to Choose a Portable Power Station guide](/blog/how-to-choose-portable-power-station-2026/) for a step-by-step breakdown of capacity, output, and features — or see all our [portable power station reviews](/blog/) to compare models side by side.
 
 ---
 
-*Questions about powering your CPAP with a portable power station? Email us at reviews@gearlab.com or reach out on Twitter/X @GearLabReviews. Medical device power is serious — we're here to help you get it right.*
+*Questions about powering your CPAP with a portable power station? Email us at reviews@gearlab.com. Medical device power is serious — we're here to help you get it right.*
