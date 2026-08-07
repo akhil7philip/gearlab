@@ -69,6 +69,8 @@ The EcoFlow DELTA Pro 3 is the best home backup power station because it thinks 
 ### Who Should Buy It:
 **Homeowners with medical devices, home offices, or frequent outages** who want generator-level backup without the noise, fuel, or installation. The DELTA Pro 3 is the closest a portable power station gets to a whole-home battery system like Tesla Powerwall — but at 1/5 the installed cost and with no electrician required.
 
+> **CPAP users:** See our dedicated [Best Portable Power Station for CPAP 2026](/blog/best-portable-power-station-cpap-2026/) guide for medical-grade testing with ResMed, Philips, and DeVilbiss — runtime tables, humidifier impact data, and 12V DC optimization verified with an oscilloscope.
+
 > **Need a lighter mid-capacity option for partial home backup?** See our [Anker SOLIX C2000 Gen 2 review](/blog/anker-solix-c2000-gen-2-review-2026/) — 2,048Wh, 2,400W output, 58-minute charge, and 41.7 lbs (half the weight of the DELTA Pro 3). Includes TT-30 RV outlet for well pump or RV AC compatibility.
 
 ### Real-World Blackout Test:
