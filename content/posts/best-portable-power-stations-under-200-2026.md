@@ -5,7 +5,7 @@ excerpt: "We tested the best portable power stations under $200. From the $129 B
 tags: ["portable power station", "budget", "under $200", "2026", "buying guide", "LiFePO4", "camping", "emergency backup", "Bluetti AC2A", "EcoFlow RIVER 3"]
 author: "Dana Park"
 authorBio: "Data analyst and former Consumer Reports editor. Crunches test data into comparison tables and calls out sloppy reasoning."
-authorSocial: "@danadatapark"
+authorSocial: ""
 coverImage: "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=1200&q=80"
 metaTitle: "5 Best Portable Power Stations Under $200 | 2026 Budget Buyer's Guide"
 metaDescription: "Expert-tested: the 5 best portable power stations under $200 in 2026. Real capacity, real output, real value. Avoid fake-capacity Amazon junk. Find your perfect budget power station."
