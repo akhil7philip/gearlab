@@ -28,6 +28,8 @@ Whether you need emergency backup for your home office, a camping companion for 
 >
 > **Need 2,000+ Wh with RV outlet?** See our [Anker SOLIX C2000 Gen 2 review](/blog/anker-solix-c2000-gen-2-review-2026/) — 2,048Wh, 2,400W output, 58-minute charge, and a built-in TT-30 RV outlet. Only $799.
 >
+> **On a tighter budget?** Check out our new [Best Portable Power Stations Under $200](/blog/best-portable-power-stations-under-200-2026/) guide — 5 real picks from $99 to $199, all with LiFePO4 batteries.
+>
 > **Using a CPAP machine?** Read our dedicated [Best Portable Power Station for CPAP 2026](/blog/best-portable-power-station-cpap-2026/) guide — real runtime data with ResMed, Philips, and DeVilbiss machines, humidifier vs. no-humidifier breakdown, and 12V DC optimization tips.
 >
 > **Affiliate Disclosure:** Gear Lab is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. We test products independently and our opinions are our own.
